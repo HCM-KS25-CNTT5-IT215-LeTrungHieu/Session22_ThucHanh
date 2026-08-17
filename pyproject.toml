@@ -10,9 +10,12 @@ dependencies = []
 dev = [
     "bcrypt>=5.0.0",
     "fastapi[standard]>=0.141.1",
+    "httpx>=0.28.1",
     "pydantic-settings>=2.15.0",
     "pyjwt>=2.13.0",
     "pymysql>=1.2.0",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
     "sqlalchemy>=2.0.52",
     "sqlalchemy-utils>=0.42.1",
 ]

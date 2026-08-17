@@ -22,3 +22,8 @@ class ChangePasswordRequest(BaseModel):
 class TransferRequest(BaseModel):
     to_username: str
     amount: float = Field(gt=0)
+    note: str | None = None
+
+
+class RefreshTokenRequest(BaseModel):
+    refresh_token: str
